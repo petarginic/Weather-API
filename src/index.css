@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #E0E7E9;
+  font-family: 'Alegreya Sans SC';font-size: 22px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.ddd {
+  text-decoration: line-through;
+}
+
+.App {
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.weather-menu {
+  padding: 1rem;
+  background-color: #A3C6C4;
+  min-height: 350px;
+  width: 300px;
+  min-height: 400px;
+  height: fit-content;
+  border-radius: 3px;
+
+}
+
+* {box-sizing:border-box}
+
+.custom-input {
+  height: 1.6rem;
+  background-color: #E0E7E9 ;
+  
+}
+
+.custom-button {
+  height: 1.6rem;
+  background-color: #6C7A89  ;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+
+
